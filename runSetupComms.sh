@@ -27,7 +27,8 @@ run() {
     rdmaVars="-EFABRIC_IFACE=mlx5_0 \
               -EOMPI_MCA_coll_ibm_skip_barrier=true \
               -EFI_MR_CACHE_MAX_COUNT=0 \
-              -EFI_OFI_RXM_USE_SRX=1"
+              -EFI_OFI_RXM_USE_SRX=1 \
+              -ESstVerbose=5"
   fi
   echo "rdmaVars $rdmaVars"
   #}
@@ -61,7 +62,7 @@ rmAdiosFiles
 echo "LSB_MCPU_HOSTS ${LSB_MCPU_HOSTS}"
 numJobNodes=$(echo ${LSB_MCPU_HOSTS} | grep -o -i ' [a-z][0-9]\+n'  | wc -l)
 
-bin=./buildAdios2SstTest_sysAdios2/setupComms
+bin=/gpfs/alpine/fus123/scratch/cwsmith/twoClientWdmCplTesting/buildAdios2SstTest_sysAdios2/setupComms
 
 serverRanks=1
 serverNodes=1
