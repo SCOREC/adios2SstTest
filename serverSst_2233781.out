@@ -1,0 +1,492 @@
+rank 0 isServer 1
+Writer 0 (0x45d4a450): Sst set to use sockets as a Control Transport
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Writer 0 (0x45d4a450): RDMA Dataplane found the requested interface mlx5_0, provider type verbs;ofi_rxm.
+DP Writer 0 (0x45d4a450): RDMA Dataplane evaluating viability, returning priority 100
+DP Writer 0 (0x45d4a450): Considering DataPlane "evpath" for possible use, priority is 1
+DP Writer 0 (0x45d4a450): Considering DataPlane "rdma" for possible use, priority is 100
+DP Writer 0 (0x45d4a450): Selecting DataPlane "rdma", priority 100 for use
+DP Writer 0 (0x45d4a450): seeing candidate fabric verbs;ofi_rxm, will use this unless we see something better.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Writer 0 (0x45d4a450): using interface set by FABRIC_IFACE.
+DP Writer 0 (0x45d4a450): Fabric parameters to use at fabric initialization: fi_info:
+    caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV, FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [ FI_LOCAL_MR ]
+    addr_format: FI_SOCKADDR_IN
+    src_addrlen: 16
+    dest_addrlen: 0
+    src_addr: fi_sockaddr_in://10.41.0.121:0
+    dest_addr: (null)
+    handle: (nil)
+    fi_tx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_SEND ]
+        mode: [ FI_LOCAL_MR ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        inject_size: 16384
+        size: 2048
+        iov_limit: 4
+        rma_iov_limit: 1
+    fi_rx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_RECV, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV ]
+        mode: [  ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        total_buffered_recv: 0
+        size: 2048
+        iov_limit: 4
+    fi_ep_attr:
+        type: FI_EP_RDM
+        protocol: FI_PROTO_RXM
+        protocol_version: 1
+        max_msg_size: 1073741824
+        msg_prefix_size: 0
+        max_order_raw_size: 1073741824
+        max_order_war_size: 0
+        max_order_waw_size: 1073741824
+        mem_tag_format: 0xaaaaaaaaaaaaaaaa
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        auth_key_size: 0
+    fi_domain_attr:
+        domain: 0x0
+        name: mlx5_0
+        threading: FI_THREAD_SAFE
+        control_progress: FI_PROGRESS_AUTO
+        data_progress: FI_PROGRESS_AUTO
+        resource_mgmt: FI_RM_ENABLED
+        av_type: FI_AV_UNSPEC
+        mr_mode: [ FI_MR_BASIC ]
+        mr_key_size: 4
+        cq_data_size: 4
+        cq_cnt: 65536
+        ep_cnt: 32768
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        max_ep_tx_ctx: 1
+        max_ep_rx_ctx: 1
+        max_ep_stx_ctx: 0
+        max_ep_srx_ctx: 0
+        cntr_cnt: 0
+        mr_iov_limit: 1
+    caps: [ FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [  ]
+        auth_key_size: 0
+        max_err_data: 0
+        mr_cnt: 0
+    fi_fabric_attr:
+        name: IB-0xfe80000000000000
+        prov_name: verbs;ofi_rxm
+        prov_version: 113.10
+        api_version: 1.5
+    fid_nic:
+        fi_device_attr:
+            name: mlx5_0
+            device_id: 0x1019
+            device_version: 0
+            vendor_id: 0x02c9
+            driver: (null)
+            firmware: 16.29.1016
+        fi_bus_attr:
+            fi_bus_type: FI_BUS_UNKNOWN
+        fi_link_attr:
+            address: (null)
+            mtu: 4096
+            speed: 100000000000
+            state: FI_LINK_UP
+            network_type: InfiniBand
+
+DP Writer 0 (0x45d4a450): Fabric Parameters:
+fi_info:
+    caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV, FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [ FI_LOCAL_MR ]
+    addr_format: FI_SOCKADDR_IN
+    src_addrlen: 16
+    dest_addrlen: 0
+    src_addr: fi_sockaddr_in://10.41.0.121:0
+    dest_addr: (null)
+    handle: (nil)
+    fi_tx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_SEND ]
+        mode: [ FI_LOCAL_MR ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        inject_size: 16384
+        size: 2048
+        iov_limit: 4
+        rma_iov_limit: 1
+    fi_rx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_RECV, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV ]
+        mode: [  ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        total_buffered_recv: 0
+        size: 2048
+        iov_limit: 4
+    fi_ep_attr:
+        type: FI_EP_RDM
+        protocol: FI_PROTO_RXM
+        protocol_version: 1
+        max_msg_size: 1073741824
+        msg_prefix_size: 0
+        max_order_raw_size: 1073741824
+        max_order_war_size: 0
+        max_order_waw_size: 1073741824
+        mem_tag_format: 0xaaaaaaaaaaaaaaaa
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        auth_key_size: 0
+    fi_domain_attr:
+        domain: 0x0
+        name: mlx5_0
+        threading: FI_THREAD_SAFE
+        control_progress: FI_PROGRESS_AUTO
+        data_progress: FI_PROGRESS_AUTO
+        resource_mgmt: FI_RM_ENABLED
+        av_type: FI_AV_UNSPEC
+        mr_mode: [ FI_MR_BASIC ]
+        mr_key_size: 4
+        cq_data_size: 4
+        cq_cnt: 65536
+        ep_cnt: 32768
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        max_ep_tx_ctx: 1
+        max_ep_rx_ctx: 1
+        max_ep_stx_ctx: 0
+        max_ep_srx_ctx: 0
+        cntr_cnt: 0
+        mr_iov_limit: 1
+    caps: [ FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [  ]
+        auth_key_size: 0
+        max_err_data: 0
+        mr_cnt: 0
+    fi_fabric_attr:
+        name: IB-0xfe80000000000000
+        prov_name: verbs;ofi_rxm
+        prov_version: 113.10
+        api_version: 1.5
+    fid_nic:
+        fi_device_attr:
+            name: mlx5_0
+            device_id: 0x1019
+            device_version: 0
+            vendor_id: 0x02c9
+            driver: (null)
+            firmware: 16.29.1016
+        fi_bus_attr:
+            fi_bus_type: FI_BUS_UNKNOWN
+        fi_link_attr:
+            address: (null)
+            mtu: 4096
+            speed: 100000000000
+            state: FI_LINK_UP
+            network_type: InfiniBand
+
+Writer 0 (0x45d4a450): Opening Stream "client0_s2c"
+Writer 0 (0x45d4a450): Writer stream params are:
+Param -   RegistrationMethod=File
+Param -   RendezvousReaderCount=1
+Param -   QueueLimit=0 (unlimited)
+Param -   QueueFullPolicy=Block
+Param -   DataTransport=rdma
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   CompressionMethod=None
+Param -   CPCommPattern=Min
+Param -   MarshalMethod=BP
+Param -   FirstTimestepPrecious=False
+Param -   IsRowMajor=1  (not user settable) 
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Writer 0 (0x45d4a450): Stream "client0_s2c" waiting for 1 readers
+Writer 0 (0x45d4a450): Beginning writer-side reader open protocol
+DP Writer 0 (0x45d4a450): Received contact info for RS_Stream 0x1991c2e0, WSR Rank 0
+Writer 0 (0x45d4a450): Setting SpeculativePreload ON for new reader
+Writer 0 (0x45d4a450): My oldest timestep was 0, global oldest timestep was 0
+Writer 0 (0x45d4a450): Finish writer-side reader open protocol for reader 0x468cfc40, reader ready response pending
+Writer 0 (0x45d4a450): (PID 316975, TID 200001a8ac20) Waiting for Reader ready on WSR 0x468cfc40.
+Writer 0 (0x45d4a450): Reader Activate message received for Stream 0x468cfc40.  Setting state to Established.
+Writer 0 (0x45d4a450): Parent stream reader count is now 1.
+Writer 0 (0x45d4a450): Reader ready on WSR 0x468cfc40, Stream established, Starting 0 LastProvided 0.
+Writer 0 (0x45d4a450): Finish opening Stream "client0_s2c"
+Reader 0 (0x4680f6c0): Sst set to use sockets as a Control Transport
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_1-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane sees interface mlx5_3-xrc, provider type verbs;ofi_rxm, which should work.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane found the requested interface mlx5_0, provider type verbs;ofi_rxm.
+DP Reader 0 (0x4680f6c0): RDMA Dataplane evaluating viability, returning priority 100
+DP Reader 0 (0x4680f6c0): Considering DataPlane "evpath" for possible use, priority is 1
+DP Reader 0 (0x4680f6c0): Considering DataPlane "rdma" for possible use, priority is 100
+DP Reader 0 (0x4680f6c0): Selecting DataPlane "rdma", priority 100 for use
+Reader 0 (0x4680f6c0): Looking for writer contact in file client0_c2s.sst, with timeout 6 secs
+DP Reader 0 (0x4680f6c0): seeing candidate fabric verbs;ofi_rxm, will use this unless we see something better.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_1-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): ignoring fabric verbs;ofi_rxm because it's not of a supported type. It may work to force this fabric to be used by setting FABRIC_IFACE to mlx5_3-xrc, but it may not be stable or performant.
+DP Reader 0 (0x4680f6c0): using interface set by FABRIC_IFACE.
+DP Reader 0 (0x4680f6c0): Fabric parameters to use at fabric initialization: fi_info:
+    caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_RECV, FI_SEND, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV, FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [ FI_LOCAL_MR ]
+    addr_format: FI_SOCKADDR_IN
+    src_addrlen: 16
+    dest_addrlen: 0
+    src_addr: fi_sockaddr_in://10.41.0.121:0
+    dest_addr: (null)
+    handle: (nil)
+    fi_tx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_READ, FI_WRITE, FI_SEND ]
+        mode: [ FI_LOCAL_MR ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        inject_size: 16384
+        size: 2048
+        iov_limit: 4
+        rma_iov_limit: 1
+    fi_rx_attr:
+        caps: [ FI_MSG, FI_RMA, FI_RECV, FI_REMOTE_READ, FI_REMOTE_WRITE, FI_MULTI_RECV ]
+        mode: [  ]
+        op_flags: [  ]
+        msg_order: [ FI_ORDER_RAR, FI_ORDER_RAW, FI_ORDER_RAS, FI_ORDER_WAW, FI_ORDER_WAS, FI_ORDER_SAW, FI_ORDER_SAS, FI_ORDER_RMA_RAR, FI_ORDER_RMA_RAW, FI_ORDER_RMA_WAW, FI_ORDER_ATOMIC_RAR, FI_ORDER_ATOMIC_RAW, FI_ORDER_ATOMIC_WAW ]
+        comp_order: [ FI_ORDER_NONE ]
+        total_buffered_recv: 0
+        size: 2048
+        iov_limit: 4
+    fi_ep_attr:
+        type: FI_EP_RDM
+        protocol: FI_PROTO_RXM
+        protocol_version: 1
+        max_msg_size: 1073741824
+        msg_prefix_size: 0
+        max_order_raw_size: 1073741824
+        max_order_war_size: 0
+        max_order_waw_size: 1073741824
+        mem_tag_format: 0xaaaaaaaaaaaaaaaa
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        auth_key_size: 0
+    fi_domain_attr:
+        domain: 0x0
+        name: mlx5_0
+        threading: FI_THREAD_SAFE
+        control_progress: FI_PROGRESS_AUTO
+        data_progress: FI_PROGRESS_AUTO
+        resource_mgmt: FI_RM_ENABLED
+        av_type: FI_AV_UNSPEC
+        mr_mode: [ FI_MR_BASIC ]
+        mr_key_size: 4
+        cq_data_size: 4
+        cq_cnt: 65536
+        ep_cnt: 32768
+        tx_ctx_cnt: 1
+        rx_ctx_cnt: 1
+        max_ep_tx_ctx: 1
+        max_ep_rx_ctx: 1
+        max_ep_stx_ctx: 0
+        max_ep_srx_ctx: 0
+        cntr_cnt: 0
+        mr_iov_limit: 1
+    caps: [ FI_LOCAL_COMM, FI_REMOTE_COMM ]
+    mode: [  ]
+        auth_key_size: 0
+        max_err_data: 0
+        mr_cnt: 0
+    fi_fabric_attr:
+        name: IB-0xfe80000000000000
+        prov_name: verbs;ofi_rxm
+        prov_version: 113.10
+        api_version: 1.5
+    fid_nic:
+        fi_device_attr:
+            name: mlx5_0
+            device_id: 0x1019
+            device_version: 0
+            vendor_id: 0x02c9
+            driver: (null)
+            firmware: 16.29.1016
+        fi_bus_attr:
+            fi_bus_type: FI_BUS_UNKNOWN
+        fi_link_attr:
+            address: (null)
+            mtu: 4096
+            speed: 100000000000
+            state: FI_LINK_UP
+            network_type: InfiniBand
+
+Reader 0 (0x4680f6c0): Waiting for writer response message in SstReadOpen("client0_c2s")
+Reader 0 (0x4680f6c0): finished wait writer response message in read_open
+Reader 0 (0x4680f6c0): Opening Reader Stream.
+Writer stream params are:
+Param -   RegistrationMethod=File
+Param -   RendezvousReaderCount=1
+Param -   QueueLimit=0 (unlimited)
+Param -   QueueFullPolicy=Block
+Param -   DataTransport=rdma
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   CompressionMethod=None
+Param -   CPCommPattern=Min
+Param -   MarshalMethod=BP
+Param -   FirstTimestepPrecious=False
+Param -   IsRowMajor=1  (not user settable) 
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Reader 0 (0x4680f6c0): Reader stream params are:
+Param -   RegistrationMethod=File
+Param -   DataTransport=rdma
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   AlwaysProvideLatestTimestep=False
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Reader 0 (0x4680f6c0): Writer is doing BP-based marshalling
+Reader 0 (0x4680f6c0): Writer is using Minimum Connection Communication pattern (min)
+DP Reader 0 (0x4680f6c0): Received contact info for WS_stream 0x1afcd9b0, WSR Rank 0
+Reader 0 (0x4680f6c0): Sending Reader Activate messages to writer
+Reader 0 (0x4680f6c0): Finish opening Stream "client0_c2s", starting with Step number 0
+DP Writer 0 (0x45d4a450): Providing timestep data with block 0x46980050 and access key 360937
+Writer 0 (0x45d4a450): Reader 0 status Established has last released -1, last sent 0
+Writer 0 (0x45d4a450): QueueMaintenance, smallest last released = -1, count = 1
+Writer 0 (0x45d4a450): Removing dead entries
+Writer 0 (0x45d4a450): QueueMaintenance complete
+Writer 0 (0x45d4a450): Sending TimestepMetadata for timestep 0 (ref count 1), one to each reader
+Writer 0 (0x45d4a450): Sent timestep 0 to reader cohort 0
+Writer 0 (0x45d4a450): ADDING timestep 0 to sent list for reader cohort 0, READER 0x468cfc40, reference count is now 2
+Writer 0 (0x45d4a450): PRELOADMODE for timestep 0 non-default for reader , active at timestep 0, mode 1
+Writer 0 (0x45d4a450): Sending a message to reader 0 (0x19f0ca30)
+Writer 0 (0x45d4a450): SubRef : Writer-side Timestep 0 now has reference count 1, expired 0, precious 0
+Writer 0 (0x45d4a450): Reader 0 status Established has last released -1, last sent 0
+Writer 0 (0x45d4a450): QueueMaintenance, smallest last released = -1, count = 1
+Writer 0 (0x45d4a450): Removing dead entries
+Writer 0 (0x45d4a450): QueueMaintenance complete
+done s2c step
+Reader 0 (0x4680f6c0): Wait for next metadata after last timestep -1
+Reader 0 (0x4680f6c0): Waiting for metadata for a Timestep later than TS -1
+Reader 0 (0x4680f6c0): (PID 316975, TID 200001a8ac20) Stream status is Established
+Writer 0 (0x45d4a450): Received a release timestep message for timestep 0 from reader cohort 0
+Writer 0 (0x45d4a450): Got the lock in release timestep
+Writer 0 (0x45d4a450): Doing dereference sent
+Writer 0 (0x45d4a450): Reader sent timestep list 0x46844180, trying to release 0
+Writer 0 (0x45d4a450): Reader considering sent timestep 0,trying to release 0
+Writer 0 (0x45d4a450): SubRef : Writer-side Timestep 0 now has reference count 0, expired 0, precious 0
+Writer 0 (0x45d4a450): Doing QueueMaint
+Writer 0 (0x45d4a450): Reader 0 status Established has last released 0, last sent 0
+Writer 0 (0x45d4a450): QueueMaintenance, smallest last released = 0, count = 1
+Writer 0 (0x45d4a450): Writer tagging timestep 0 as expired
+DP Writer 0 (0x45d4a450): Releasing timestep 0
+Writer 0 (0x45d4a450): Removing dead entries
+Writer 0 (0x45d4a450): Remove queue Entries removing Timestep 0 (exp 1, Prec 0, Ref 0), Count now 0
+Writer 0 (0x45d4a450): QueueMaintenance complete
+Writer 0 (0x45d4a450): Releasing the lock in release timestep
+Reader 0 (0x4680f6c0): Received a Timestep metadata message for timestep 0, signaling condition
+Reader 0 (0x4680f6c0): Examining metadata for Timestep 0
+Reader 0 (0x4680f6c0): Returning metadata for Timestep 0
+Reader 0 (0x4680f6c0): Setting TSmsg to Rootentry value
+DP Reader 0 (0x4680f6c0): RdmaTimestepArrived with Timestep = 0, PreloadMode = 1
+Reader 0 (0x4680f6c0): SstAdvanceStep returning Success on timestep 0
+Writer 0 (0x45d4a450): Writer-side Rank received a connection-close event during normal operations, peer likely failed
+Writer 0 (0x45d4a450): In PeerFailCloseWSReader, releasing sent timesteps
+Writer 0 (0x45d4a450): Dereferencing all timesteps sent to reader 0x468cfc40
+Writer 0 (0x45d4a450): DONE DEREFERENCING
+Writer 0 (0x45d4a450): Moving Reader stream 0x468cfc40 to status PeerFailed
+Writer 0 (0x45d4a450): Reader 0 status PeerFailed has last released 0, last sent 0
+Writer 0 (0x45d4a450): QueueMaintenance, smallest last released = LONG_MAX, count = 0
+Writer 0 (0x45d4a450): Removing dead entries
+Writer 0 (0x45d4a450): QueueMaintenance complete
+Writer 0 (0x45d4a450): Reader 0 (0x4680f6c0): Sending ReleaseTimestep message for timestep 0, one to each writer
+Reader 0 status PeerFailed has last released 0, last sent 0
+Reader 0 (0x4680f6c0): Message failed to send to writer 0 (0x1af0e1b0)
+Writer 0 (0x45d4a450): done c2s step
+QueueMaintenance, smallest last released = LONG_MAX, count = 0
+Writer 0 (0x45d4a450): Removing dead entries
+Writer 0 (0x45d4a450): QueueMaintenance complete
+Writer 0 (0x45d4a450): Got an unexpected connection close event
+Writer 0 (0x45d4a450): Writer-side Rank received a connection-close event in unexpected state PeerFailed
+Reader 0 (0x4680f6c0): Writer 0 (0x45d4a450): Destroying stream 0x45d4a450, name client0_s2c
+Reader-side close handler invoked
+DP Writer 0 (0x45d4a450): Reader 0 (0x4680f6c0): Reader-side Rank received a connection-close event during normal operations, peer likely failed
+Reader 0 (0x4680f6c0): The close was for connection to writer peer 0, notifying DP
+Releasing reader-specific state for remaining readers.
+DP Reader 0 (0x4680f6c0): received notification that writer peer 0 has failed, failing any pending requests
+DP Writer 0 (0x45d4a450): Releasing remaining timesteps.
+DP Writer 0 (0x45d4a450): Tearing down RDMA state on writer.
+Writer 0 (0x7fffdd37f260): SstStreamDestroy successful, returning
+Reader 0 (0x4680f6c0): Destroying stream 0x4680f6c0, name client0_c2s
+DP Reader 0 (0x4680f6c0): Tearing down RDMA state on reader.
+Reader 0 (0x4680f6c0): Reference count now zero, Destroying process SST info cache
+Reader 0 (0x4680f6c0): Freeing LastCallList
+Reader 0 (0x7fffdd37f290): SstStreamDestroy successful, returning
+SST stream open at exit, unlinking contact file (®
+done
