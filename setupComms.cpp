@@ -15,15 +15,11 @@ void waitForEngineCreation(adios2::IO& io) {
 }
 
 void setupBp4(std::string_view name, adios2::Params params, bool isServer) {
-  adios2::ADIOS adios(MPI_COMM_WORLD);
+  adios2::ADIOS adios("adios2_bp4.yaml", MPI_COMM_WORLD);
   auto s2cName = std::string(name)+"_s2c"; //s2c = server to client
   auto c2sName = std::string(name)+"_c2s"; //c2s = client to server
   auto s2cIO = adios.DeclareIO(s2cName);
   auto c2sIO = adios.DeclareIO(c2sName);
-  s2cIO.SetEngine("BP4");
-  c2sIO.SetEngine("BP4");
-  s2cIO.SetParameters(params);
-  c2sIO.SetParameters(params);
  
   const auto writeEngineName = isServer ? s2cName : c2sName;
   auto writerEngine = isServer ?
@@ -49,15 +45,11 @@ void setupBp4(std::string_view name, adios2::Params params, bool isServer) {
 }
 
 void setupSst(std::string_view name, adios2::Params params, bool isServer) {
-  adios2::ADIOS adios(MPI_COMM_WORLD);
+  adios2::ADIOS adios("adios2_sst.yaml", MPI_COMM_WORLD);
   auto s2cName = std::string(name)+"_s2c"; //s2c = server to client
   auto c2sName = std::string(name)+"_c2s"; //c2s = client to server
   auto s2cIO = adios.DeclareIO(s2cName);
   auto c2sIO = adios.DeclareIO(c2sName);
-  s2cIO.SetEngine("SST");
-  c2sIO.SetEngine("SST");
-  s2cIO.SetParameters(params);
-  c2sIO.SetParameters(params);
 
   const auto s2cEngineMode = isServer ? adios2::Mode::Write : adios2::Mode::Read;
   adios2::Engine s2cEngine = s2cIO.Open(s2cName, s2cEngineMode);

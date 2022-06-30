@@ -1,0 +1,13 @@
+---
+# adios2 config.yaml
+- IO: "client0_s2c"
+  Engine:
+      Type: BP4
+      Streaming: On
+      OpenTimeoutSecs: 6
+- IO: "client0_c2s"
+  Engine:
+      Type: BP4
+      Streaming: On
+      OpenTimeoutSecs: 6
+

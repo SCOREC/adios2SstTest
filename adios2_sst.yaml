@@ -1,0 +1,9 @@
+---
+# adios2 config.yaml
+- IO: "client0_s2c"
+  Engine:
+      Type: SST
+- IO: "client0_c2s"
+  Engine:
+      Type: SST
+
