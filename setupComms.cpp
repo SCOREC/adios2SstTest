@@ -46,6 +46,9 @@ void setupBp4(std::string_view name, adios2::Params params, bool isServer) {
   assert(readerStatus == adios2::StepStatus::OK);
   readerEngine.EndStep();
   std::cerr << "done reader step\n";
+
+  writerEngine.Close();
+  readerEngine.Close();
 }
 
 void setupSst(std::string_view name, adios2::Params params, bool isServer) {
@@ -75,6 +78,9 @@ void setupSst(std::string_view name, adios2::Params params, bool isServer) {
   assert(c2sStatus == adios2::StepStatus::OK);
   c2sEngine.EndStep();
   std::cerr << "done c2s step\n";
+
+  s2cEngine.Close();
+  c2sEngine.Close();
 }
 
 int main(int argc, char** argv) {
