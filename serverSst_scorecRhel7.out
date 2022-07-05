@@ -1,0 +1,153 @@
+rank 0 isServer 1
+Writer 0 (0x14758a0): Sst set to use sockets as a Control Transport
+DP Writer 0 (0x14758a0): Considering DataPlane "evpath" for possible use, priority is 1
+DP Writer 0 (0x14758a0): Selecting DataPlane "evpath", priority 1 for use
+Writer 0 (0x14758a0): Opening Stream "client0_s2c"
+Writer 0 (0x14758a0): Writer stream params are:
+Param -   RegistrationMethod=File
+Param -   RendezvousReaderCount=1
+Param -   QueueLimit=0 (unlimited)
+Param -   QueueFullPolicy=Block
+Param -   DataTransport=evpath
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   CompressionMethod=None
+Param -   CPCommPattern=Min
+Param -   MarshalMethod=BP
+Param -   FirstTimestepPrecious=False
+Param -   IsRowMajor=1  (not user settable) 
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Writer 0 (0x14758a0): Stream "client0_s2c" waiting for 1 readers
+Writer 0 (0x14758a0): Beginning writer-side reader open protocol
+DP Writer 0 (0x14758a0): Received contact info "AAIAAJTJ8o1GgAAAATkCmFiCcYA=", RD_Stream 0x2555e80 for Reader Rank 0
+Writer 0 (0x14758a0): Setting SpeculativePreload ON for new reader
+Writer 0 (0x14758a0): My oldest timestep was 0, global oldest timestep was 0
+Writer 0 (0x14758a0): Finish writer-side reader open protocol for reader 0x147cd90, reader ready response pending
+Writer 0 (0x14758a0): (PID 4ecc, TID 7f23036ecb80) Waiting for Reader ready on WSR 0x147cd90.
+Writer 0 (0x14758a0): Reader Activate message received for Stream 0x147cd90.  Setting state to Established.
+Writer 0 (0x14758a0): Parent stream reader count is now 1.
+Writer 0 (0x14758a0): Reader ready on WSR 0x147cd90, Stream established, Starting 0 LastProvided 0.
+Writer 0 (0x14758a0): Finish opening Stream "client0_s2c"
+Reader 0 (0x1491150): Sst set to use sockets as a Control Transport
+DP Reader 0 (0x1491150): Considering DataPlane "evpath" for possible use, priority is 1
+DP Reader 0 (0x1491150): Selecting DataPlane "evpath", priority 1 for use
+Reader 0 (0x1491150): Looking for writer contact in file client0_c2s.sst, with timeout 6 secs
+Reader 0 (0x1491150): Waiting for writer response message in SstReadOpen("client0_c2s")
+Reader 0 (0x1491150): finished wait writer response message in read_open
+Reader 0 (0x1491150): Opening Reader Stream.
+Writer stream params are:
+Param -   RegistrationMethod=File
+Param -   RendezvousReaderCount=1
+Param -   QueueLimit=0 (unlimited)
+Param -   QueueFullPolicy=Block
+Param -   DataTransport=evpath
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   CompressionMethod=None
+Param -   CPCommPattern=Min
+Param -   MarshalMethod=BP
+Param -   FirstTimestepPrecious=False
+Param -   IsRowMajor=1  (not user settable) 
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Reader 0 (0x1491150): Reader stream params are:
+Param -   RegistrationMethod=File
+Param -   DataTransport=evpath
+Param -   ControlTransport=sockets
+Param -   NetworkInterface=(default)
+Param -   ControlInterface=(default to NetworkInterface if applicable)
+Param -   DataInterface=(default to NetworkInterface if applicable)
+Param -   AlwaysProvideLatestTimestep=False
+Param -   OpenTimeoutSecs=6 (seconds)
+Param -   SpeculativePreloadMode=Auto
+Param -   SpecAutoNodeThreshold=1
+Param -   ControlModule=select
+Reader 0 (0x1491150): Writer is doing BP-based marshalling
+Reader 0 (0x1491150): Writer is using Minimum Connection Communication pattern (min)
+DP Reader 0 (0x1491150): Received contact info "Writer Rank 0, test contact", WS_stream 0x25772e0 for WSR Rank 0
+Reader 0 (0x1491150): Sending Reader Activate messages to writer
+Reader 0 (0x1491150): Finish opening Stream "client0_c2s", starting with Step number 0
+DP Writer 0 (0x14758a0): ProvideTimestep, registering timestep 0, data 0x14a2f80, fprint 8223030494b5763
+Writer 0 (0x14758a0): Reader 0 status Established has last released 4294967295, last sent 0
+Writer 0 (0x14758a0): QueueMaintenance, smallest last released = -1, count = 1
+Writer 0 (0x14758a0): Removing dead entries
+Writer 0 (0x14758a0): QueueMaintenance complete
+Writer 0 (0x14758a0): Sending TimestepMetadata for timestep 0 (ref count 1), one to each reader
+Writer 0 (0x14758a0): Sent timestep 0 to reader cohort 0
+Writer 0 (0x14758a0): ADDING timestep 0 to sent list for reader cohort 0, READER 0x147cd90, reference count is now 2
+Writer 0 (0x14758a0): PRELOADMODE for timestep 0 non-default for reader , active at timestep 0, mode 1
+DP Writer 0 (0x14758a0): Per reader registration for timestep 0, preload mode 1
+DP Writer 0 (0x14758a0): Sending Speculative Preload messages, reader 0x147ced0, timestep 0
+Writer 0 (0x14758a0): Sending a message to reader 0 (0x254e8e0)
+Writer 0 (0x14758a0): SubRef : Writer-side Timestep 0 now has reference count 1, expired 0, precious 0
+Writer 0 (0x14758a0): Reader 0 status Established has last released 4294967295, last sent 0
+Writer 0 (0x14758a0): QueueMaintenance, smallest last released = -1, count = 1
+Writer 0 (0x14758a0): Removing dead entries
+Writer 0 (0x14758a0): QueueMaintenance complete
+done s2c step
+Reader 0 (0x1491150): Wait for next metadata after last timestep -1
+Reader 0 (0x1491150): Waiting for metadata for a Timestep later than TS -1
+Reader 0 (0x1491150): (PID 4ecc, TID 7f23036ecb80) Stream status is Established
+Writer 0 (0x14758a0): Received a release timestep message for timestep 0 from reader cohort 0
+Writer 0 (0x14758a0): Got the lock in release timestep
+Writer 0 (0x14758a0): Doing dereference sent
+Writer 0 (0x14758a0): Reader sent timestep list 0x14a7f60, trying to release 0
+Writer 0 (0x14758a0): Reader considering sent timestep 0,trying to release 0
+Writer 0 (0x14758a0): SubRef : Writer-side Timestep 0 now has reference count 0, expired 0, precious 0
+Writer 0 (0x14758a0): Doing QueueMaint
+Writer 0 (0x14758a0): Reader 0 status Established has last released 0, last sent 0
+Writer 0 (0x14758a0): QueueMaintenance, smallest last released = 0, count = 1
+Writer 0 (0x14758a0): Writer tagging timestep 0 as expired
+DP Writer 0 (0x14758a0): Releasing timestep 0
+Writer 0 (0x14758a0): Removing dead entries
+Writer 0 (0x14758a0): Remove queue Entries removing Timestep 0 (exp 1, Prec 0, Ref 0), Count now 0
+Writer 0 (0x14758a0): QueueMaintenance complete
+Writer 0 (0x14758a0): Releasing the lock in release timestep
+DP Reader 0 (0x1491150): Got a preload message from writer rank 0 for timestep 0, fprint 8223030494b5763
+Reader 0 (0x1491150): Received a Timestep metadata message for timestep 0, signaling condition
+Reader 0 (0x1491150): Examining metadata for Timestep 0
+Reader 0 (0x1491150): Returning metadata for Timestep 0
+Reader 0 (0x1491150): Setting TSmsg to Rootentry value
+DP Reader 0 (0x1491150): EVPATH registering reader arrival of TS 0 metadata, preload mode 1
+Reader 0 (0x1491150): SstAdvanceStep returning Success on timestep 0
+Writer 0 (0x14758a0): Writer-side Rank received a connection-close event during normal operations, peer likely failed
+Writer 0 (0x14758a0): In PeerFailCloseWSReader, releasing sent timesteps
+Writer 0 (0x14758a0): Dereferencing all timesteps sent to reader 0x147cd90
+Writer 0 (0x14758a0): DONE DEREFERENCING
+Writer 0 (0x14758a0): Moving Reader stream 0x147cd90 to status PeerFailed
+Writer 0 (0x14758a0): Reader 0 status PeerFailed has last released 0, last sent 0
+Writer 0 (0x14758a0): QueueMaintenance, smallest last released = LONG_MAX, count = 0
+Writer 0 (0x14758a0): Removing dead entries
+Writer 0 (0x14758a0): QueueMaintenance complete
+Writer 0 (0x14758a0): Reader 0 status PeerFailed has last released 0, last sent 0
+Writer 0 (0x14758a0): QueueMaintenance, smallest last released = LONG_MAX, count = 0
+Writer 0 (0x14758a0): Removing dead entries
+Writer 0 (0x14758a0): QueueMaintenance complete
+Writer 0 (0x14758a0): Got an unexpected connection close event
+Writer 0 (0x14758a0): Writer-side Rank received a connection-close event in unexpected state PeerFailed
+Reader 0 (0x1491150): Reader-side close handler invoked
+Reader 0 (0x1491150): Reader-side Rank received a connection-close event during normal operations, peer likely failed
+Reader 0 (0x1491150): The close was for connection to writer peer 0, notifying DP
+DP Reader 0 (0x1491150): received notification that writer peer 0 has failed, failing any pending requests
+DP Reader 0 (0x1491150): Fail pending requests to rank 0 on stream 0x149e310
+DP Reader 0 (0x1491150): Done Failing requests to writer 0 from stream 0x149e310
+Reader 0 (0x1491150): Sending ReleaseTimestep message for timestep 0, one to each writer
+done c2s step
+Writer 0 (0x14758a0): Destroying stream 0x14758a0, name client0_s2c
+Writer 0 (0x7ffc1312c8c0): SstStreamDestroy successful, returning
+Reader 0 (0x1491150): Destroying stream 0x1491150, name client0_c2s
+DP Reader 0 (0x1491150): Discarding prior, TS 0, data 0x7f22f8004dc0, fprint 8223030494b5763
+Reader 0 (0x1491150): Reference count now zero, Destroying process SST info cache
+Reader 0 (0x1491150): Freeing LastCallList
+Reader 0 (0x7ffc1312c8b0): SstStreamDestroy successful, returning
+done
+SST stream open at exit, unlinking contact file 
